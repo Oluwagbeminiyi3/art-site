@@ -1,0 +1,352 @@
+body {
+  background-color: #EEEBDD;
+}
+h3 {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  left: 120px;
+  top: 29px;
+font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.introduction{
+  position: absolute;
+width: 795px;
+height: 76px;
+left: 120px;
+top: 105px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+
+color: #000000;
+}
+.home {
+  width: 44px;
+  height: 19px;
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+    color: rgba(0, 0, 0, 0.5);
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.home:hover{
+  color: white;
+}
+.project {
+  width: 63px;
+  height: 19px;
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.5);
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.project:hover{
+  color: white;
+}
+.about {
+  width: 45px;
+  height: 19px;
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.5);
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.about:hover{
+  color: white;
+}
+.artists {
+  width: 51px;
+  height: 19px;
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.5);
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.artists:hover{
+  color: white;
+}
+.contact-us {
+  width: 82px;
+  height: 19px;
+font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.5);
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+.contact-us:hover{
+  color: white;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  position: absolute;
+  width: 413px;
+  height: 19px;
+  left: 979px;
+  top: 41px;
+}
+.fifth-image{
+  position: absolute;
+width: 700px;
+height: 437px;
+left: 120px;
+top: 328px;
+
+background: url(.jpg);
+border-radius: 6px;
+}
+.description{
+  position: absolute;
+width: 151px;
+height: 29px;
+left: 871px;
+top: 328px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #000000;
+
+}
+.word{
+  position: absolute;
+width: 293px;
+height: 29px;
+left: 871px;
+top: 385px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.artist{
+  position: absolute;
+width: 206px;
+height: 19px;
+left: 871px;
+top: 425px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.main-words{
+  position: absolute;
+width: 521px;
+height: 154px;
+left: 871px;
+top: 452px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 23px;
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+.box{
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 6px 22px;
+gap: 10px;
+
+position: absolute;
+width: 163px;
+height: 39px;
+left: 871px;
+top: 659px;
+
+border: 1px solid #000000;
+border-radius: 4px;
+
+}
+.box-word{
+
+width: 119px;
+height: 17px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.other-works{
+  position: absolute;
+width: 198px;
+height: 12px;
+left: 1164px;
+top: 676px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 12px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.highest{
+  position: absolute;
+width: 81px;
+height: 17px;
+left: 868px;
+top: 703px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.bid{
+  position: absolute;
+width: 76px;
+height: 17px;
+left: 953px;
+top: 703px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.note{
+  position: absolute;
+width: 189px;
+height: 10px;
+left: 1045px;
+top: 708px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.arrow{
+  position: absolute;
+width: 38px;
+height: 20px;
+left: 1358px;
+top: 686px;
+
+}

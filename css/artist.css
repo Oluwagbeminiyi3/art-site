@@ -1,0 +1,663 @@
+body {
+  background-color: #EEEBDD;
+}
+h3 {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  left: 120px;
+  top: 29px;
+font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.introduction{
+  position: absolute;
+width: 795px;
+height: 76px;
+left: 120px;
+top: 105px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 76px;
+
+color: #000000;
+
+}
+.home {
+  width: 44px;
+  height: 19px;
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+    color: rgba(0, 0, 0, 0.5);
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.home:hover{
+  color: white;
+}
+.project {
+  width: 63px;
+  height: 19px;
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.5);
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.project:hover{
+  color: white;
+}
+.about {
+  width: 45px;
+  height: 19px;
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.5);
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.about:hover{
+  color: white;
+}
+.artists {
+  width: 51px;
+  height: 19px;
+  font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.5);
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.artists:hover{
+  color: white;
+}
+.contact-us {
+  width: 82px;
+  height: 19px;
+font-family: 'Chivo', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.5);
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+.contact-us:hover{
+  color: white;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 32px;
+  position: absolute;
+  width: 413px;
+  height: 19px;
+  left: 979px;
+  top: 41px;
+}
+.popular{
+  position: absolute;
+width: 77px;
+height: 24px;
+left: 120px;
+top: 327px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.name-1{
+  position: absolute;
+width: 202px;
+height: 24px;
+left: 120px;
+top: 392px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.search-box{
+  box-sizing: border-box;
+
+position: absolute;
+width: 413px;
+height: 46px;
+left: 978px;
+top: 200px;
+
+border: 1px solid rgba(0, 0, 0, 0.5);
+border-radius: 8px;
+}
+.box-word{
+  position: absolute;
+width: 136px;
+height: 14px;
+left: 45px;
+top: 3px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-transform: capitalize;
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+.fourth-image{
+  position: absolute;
+width: 438px;
+height: 558px;
+left: 120px;
+top: 440px;
+
+background: url(larger.jpg);
+border-radius: 8px;
+}
+.info-1{
+  position: absolute;
+width: 100px;
+height: 24px;
+left: 120px;
+top: 985px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.sixth-image{
+  position: absolute;
+width: 689px;
+height: 545px;
+left: 687px;
+top: 440px;
+
+background: url(Oluwole-Omofemi-App-Image-copy.jpg);
+border-radius: 8px;
+}
+.info-2{
+  position: absolute;
+width: 116px;
+height: 24px;
+left: 687px;
+top: 978px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.ninth-image{
+  position: absolute;
+width: 322px;
+height: 474px;
+left: 120px;
+top: 1058px;
+
+background: url(artsy-matthew-eguavoen-you-can_t-give-what-you-don_t-have-2022-160cm-h-x-120cm-w-acrylic-and-oil-on-canvas-2202.png);
+border-radius: 8px;
+
+}
+.info-3{
+  position: absolute;
+width: 127px;
+height: 24px;
+left: 120px;
+top: 1519px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.name-2{
+  position: absolute;
+width: 235px;
+height: 24px;
+left: 113px;
+top: 1607px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.fifth-image{
+
+position: absolute;
+width: 700px;
+height: 437px;
+left: 119px;
+top: 1666px;
+
+background: url(.jpg);
+border-radius: 6px;
+}
+.info-4{
+  position: absolute;
+width: 244px;
+height: 24px;
+left: 119px;
+top: 2093px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+}
+.more{
+  position: absolute;
+width: 133px;
+height: 29px;
+left: 689px;
+top: 2187px;
+
+font-family: 'Chivo';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+
+.more:hover{
+  color: white;
+}
+
+
+.bottom-container{
+  position: absolute;
+width: 1812px;
+height: 354px;
+left: 0px;
+top: 2291px;
+
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #EEEBDD;
+}
+.footer-name{
+  position: absolute;
+width: 160px;
+height: 38px;
+left: 120px;
+top: -2px;
+padding: 10px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.location{
+  position: absolute;
+width: 121px;
+height: 21px;
+left: 120px;
+top: 50px;
+padding: 10px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+
+}
+.contact{
+  position: absolute;
+width: 103px;
+height: 24px;
+left: 120px;
+top: 80px;
+padding: 10px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+.footer-main{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 22px;
+
+position: absolute;
+width: 204px;
+height: 116px;
+left: 411px;
+top: 40px;
+
+}
+.catalogue{
+  width: 96px;
+height: 24px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.order-guide{
+  width: 115px;
+height: 24px;
+margin-top: -25px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.terms{
+  width: 204px;
+height: 24px;
+margin-top: -25px;
+
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.footer-link{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 22px;
+
+position: absolute;
+width: 99px;
+height: 116px;
+left: 807px;
+top: 40px;
+}
+.instagram{
+  width: 99px;
+height: 24px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.linkedin{
+  width: 78px;
+height: 24px;
+margin-top: -25px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.twitter{
+  width: 67px;
+height: 24px;
+margin-top: -25px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+.closing{
+  position: absolute;
+width: 382px;
+height: 24px;
+left: 1004px;
+top: 40px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.line{
+  position: absolute;
+width: 338px;
+height: 0px;
+left: 1005px;
+top: 125.51px;
+
+border: 1px solid rgba(0, 0, 0, 0.75);
+}
+.email{
+  position: absolute;
+width: 47px;
+height: 21px;
+left: 1004px;
+top: 81px;
+
+font-family: 'Chivo', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+
+}
+.arrow{
+  position: absolute;
+width: 55.08px;
+height: 0px;
+left: 1280px;
+top: 95px;
+
+}
+.arrow-right{
+  width: 55.08px;
+  height: 35px;
+
+
+}
+.angle{
+  position: absolute;
+width: 16px;
+height: 16px;
+left: 202px;
+top: 353px;
+
+}
+.search{
+  position: absolute;
+width: 24px;
+height: 24px;
+left: 10px;
+top: 11px;
+
+}
